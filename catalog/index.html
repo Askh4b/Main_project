@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>IDILLIKA</title>  
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/slick-theme.css"> 
+    <link rel="stylesheet" href="./css/style.css"> 
+</head>
+<body>
+
+    <!--     
+    HEADER
+     -->
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__right">
+                    <div class="logo">
+                        <a href="" class="header__logo"><img src="./img/idillika_logo.svg" alt=""></a>
+                    </div>
+
+                    <form action="" class="">
+                    <div class="select-box">
+                        <div class="select-box__current" tabindex="1">
+                            <div class="select-box__value"><input class="select-box__input" type="radio" id="0" value="1" name="Ben" checked="checked" />
+                                <p class="select-box__input-text">Женское</p>
+                            </div>
+                            <div class="select-box__value"><input class="select-box__input" type="radio" id="1" value="2" name="Ben" />
+                                <p class="select-box__input-text">Мужское</p>
+                            </div>
+                            <div class="select-box__value"><input class="select-box__input" type="radio" id="2" value="3" name="Ben" />
+                                <p class="select-box__input-text">Детское</p>
+                            </div>
+                          <img class="select-box__icon" src="./img/arrow.jpg" alt="Arrow Icon" aria-hidden="true" /></div>
+                        <ul class="select-box__list">
+                            <li><label class="select-box__option" for="0" aria-hidden="aria-hidden">Женское</label></li>
+                            <li><label class="select-box__option" for="1" aria-hidden="aria-hidden">Мужское</label></li>
+                            <li><label class="select-box__option" for="2" aria-hidden="aria-hidden">Детское</label></li>
+                        </ul>
+                    </div>
+                </form>
+                </div>
+                <div class="header__left">
+                    <div class="searchh">
+                            <form action="" class="search">
+                              <input class="search-box"  type="search" id="search-box" autocomplete="off" placeholder="Что вы ищите?" step="2">
+                            </form>
+                    </div>
+                    <div class="login">
+                        <a href="#" class="login__left">Вход</a>
+                            <span>/</span>
+                        <a href="#" class="login__right">Регистрация</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <hr>
+        <div class="header__nav">
+            <div class="container">
+                <div class="navigation">
+                    <nav class="nav">
+                        <ul class="nav__item">
+                            <a href=""><li class="nav__links red">Новинки</li></a>
+                            <a href=""><li class="nav__links">Одежда</li></a>
+                            <a href=""><li class="nav__links">Сумки</li></a>
+                            <a href=""><li class="nav__links">Обувь</li></a>
+                            <a href=""><li class="nav__links">Modest</li></a>
+                            <a href=""><li class="nav__links">Аксессуары</li></a>
+                            <a href=""><li class="nav__links">Для дома</li></a>
+                        </ul>
+                    </nav>
+                    <div class="header__basket">
+                        <a href=""><img class="heart" src="./img/heart.png" alt=""></a>
+                        <div class="line"></div>
+                        <a class="" href=""><img src="./img/bag.png" alt=""></a>
+                        <span class="bag__item">Товаров 4</span> 
+                    </div>   
+                </div>
+        </div>
+    </div>      
+    </header> 
+
+    <hr>
+
+<main class="main container">
+            <div class="main__header">
+                <h1 class="main__title">Одежда</h1>
+                <div class="main__checklist">
+                    <span class="main__list">Главная</span>
+                    <img src="./img/second_arr.jpg" alt="">
+                    <span class="main__list">Женское </span>
+                    <img src="./img/second_arr.jpg" alt="">
+                    <span class="main__list gray">Одежда</span>
+                </div>
+            </div>
+
+<div class="main__content">
+    <div class="main__filter">
+        <h1 class="filter__title">
+            Фильтр
+        </h1>
+        <form action="">
+            <div  class="dropdown-check-list catalog__filter" tabindex="100">
+                <span class="anchor">Категория</span>
+                <ul class="items">
+                  <label class="dropdown-check-list-input" ><input class="check__input" type="checkbox" checke class="check__input"/><span class="check__box">Верхняя одежда </span></label>
+                  <br>
+                  <label class="dropdown-check-list-input" ><input type="checkbox" class="check__input"/><span class="check__box">Все в одном</span></label>
+                  <br>
+                  <label class="dropdown-check-list-input" ><input type="checkbox" class="check__input"/><span class="check__box">Джинсы и брюки</span></label>
+                  <br>
+                  <label class="dropdown-check-list-input" ><input type="checkbox" class="check__input"/><span class="check__box">Свитшоты </span></label>
+                  <br>
+                  <label class="dropdown-check-list-input" ><input type="checkbox" checke class="check__input"/><span class="check__box">Костюмы и классика</span></label>
+                  <br>
+                  <label class="dropdown-check-list-input" ><input type="checkbox" class="check__input"/><span class="check__box">Купальники</span></label>
+                  <br>
+                  <label class="dropdown-check-list-input" ><input type="checkbox" class="check__input"/><span class="check__box">Нижнее белье</span></label>
+                  <br>
+                  <label class="dropdown-check-list-input" ><input type="checkbox" class="check__input"/><span class="check__box">Топы</span></label>
+                </ul>
+              </div>
+            <hr class="dropdown__line">
+            <div  class="dropdown-check-list catalog__filter" tabindex="100">
+                <span class="anchor">Тип товара</span>
+                <ul class="items">
+                  <label class="dropdown-check-list-input" ><input type="checkbox"  class="check__input"/><span class="check__box">Для него</span></label>
+                  <br>
+                  <label class="dropdown-check-list-input" ><input type="checkbox"  class="check__input"/><span class="check__box">Для нее</span></label>
+                </ul>
+              </div>
+            <hr class="dropdown__line">
+            <div  class="dropdown-check-list catalog__filter" tabindex="100">
+                <span class="anchor">Бренд</span>
+                <ul class="items">
+                  <label class="dropdown-check-list-input" ><input type="checkbox"  class="check__input"/><span class="check__box">Mango</span></label>
+                  <br>
+                  <label class="dropdown-check-list-input" ><input type="checkbox"  class="check__input"/><span class="check__box">Stradivarius</span></label>
+                  <br>
+                  <label class="dropdown-check-list-input" ><input type="checkbox"  class="check__input"/><span class="check__box">Love Republic</span></label>
+                  <br>
+                  <label class="dropdown-check-list-input" ><input type="checkbox"  class="check__input"/><span class="check__box">United Colors of Benetton</span></label>
+                </ul>
+              </div>
+            <hr class="dropdown__line">
+            <div  class="dropdown-check-list catalog__filter" tabindex="100">
+                <span class="anchor">Коллекция</span>
+                <ul class="items">
+                  <label class="dropdown-check-list-input" ><input type="checkbox"  class="check__input" /><span class="check__box">Боллеро</span></label>
+                  <br>
+                  <label class="dropdown-check-list-input" ><input type="checkbox" disabled checked  class="check__input"/><span class="check__box">Жилеты</span></label>
+                  <br>
+                  <label class="dropdown-check-list-input" ><input type="checkbox"  class="check__input" /><span class="check__box">Жакеты</span></label>
+                  <br>
+                  <label class="dropdown-check-list-input" ><input type="checkbox" checked  class="check__input"/><span class="check__box">Куртки</span></label>
+                </ul>
+              </div>
+            <hr class="dropdown__line">
+            <div  class="dropdown-check-list catalog__filter" tabindex="100">
+                <span class="anchor">Размер</span>
+                <ul class="items">
+                  <label class="dropdown-check-list-input" ><input type="checkbox" class="check__input" /><span class="check__box">32</span></label>
+                  <br>
+                  <label class="dropdown-check-list-input" ><input type="checkbox"  class="check__input" /><span class="check__box">34</span></label>
+                  <br>
+                  <label class="dropdown-check-list-input" ><input type="checkbox" class="check__input" /><span class="check__box">36</span></label>
+                  <br>
+                  <label class="dropdown-check-list-input" ><input type="checkbox" class="check__input" /><span class="check__box">38</span></label>
+                  <br>
+                  <label class="dropdown-check-list-input" ><input type="checkbox" class="check__input" /><span class="check__box">42</span></label>
+                  <br>
+                  <label class="dropdown-check-list-input" ><input type="checkbox" class="check__input" /><span class="check__box">42</span></label>
+                  <br>
+                  <label class="dropdown-check-list-input" ><input type="checkbox" checked class="check__input"/><span class="check__box">44</span></label>
+                </ul>
+              </div>
+            <hr class="dropdown__line">
+            <div  class="dropdown-check-list catalog__filter" tabindex="100">
+                <span class="anchor">Цвет</span>
+                <ul class="items">
+                  <label class="dropdown-check-list-input" ><input type="checkbox" class="check__input"/><span class="check__box">Фиолетовый</span></label>
+                  <br>
+                  <label class="dropdown-check-list-input" ><input type="checkbox" class="check__input"/><span class="check__box">Розовый</span></label>
+                  <br>
+                  <label class="dropdown-check-list-input" ><input type="checkbox" class="check__input"/><span class="check__box">Коричневый</span></label>
+                  <br>
+                  <label class="dropdown-check-list-input" ><input type="checkbox" class="check__input"/><span class="check__box">Желтый</span></label>
+                  <br>
+                  <label class="dropdown-check-list-input" ><input type="checkbox" checked class="check__input"/><span class="check__box">Красный</span></label>
+                  <br>
+                  <label class="dropdown-check-list-input" ><input type="checkbox" class="check__input"/><span class="check__box">Черный</span></label>
+                  <br>
+                  <label class="dropdown-check-list-input" ><input type="checkbox" class="check__input"/><span class="check__box">Белый</span></label>
+                  <br>
+                  <label class="dropdown-check-list-input" ><input type="checkbox" class="check__input"/><span class="check__box">Синий</span></label>
+                  <br>
+                  <label class="dropdown-check-list-input" ><input type="checkbox" class="check__input"/><span class="check__box">Зеленый</span></label>
+                </ul>
+              </div>
+            <hr class="dropdown__line">
+            <div  class="dropdown-check-list catalog__filter" tabindex="100">
+                <span class="anchor">Цена</span>
+                <ul class="items">
+                    <label class="dropdown-check-list-input"  ><input type="checkbox" class="check__input"/><span class="check__box">До 15000 тысяч</span></label>
+                    <br>
+                    <label class="dropdown-check-list-input" ><input type="checkbox" class="check__input"/><span class="check__box">До 50000 тысяч</span></label>
+                </ul>
+              </div>
+            <hr class="dropdown__line">
+        </form>
+
+        <button class="use">Применить фильтр</button>
+        <br>
+        <button class="delete">Сбросить</button>
+    </div>
+
+    <div class="cards ">
+        <div class="first">
+            <div class="grid">
+            <div class="card">
+            <img src="./img/1w.jpg" width="256" height="318" alt="Screenshot">
+            <div class="card__price">
+                <span class="card__title">9 450 ₽</span> 
+                <img class="card__pic" src="./img/heart-ico-second.png" alt="pic">  
+            </div>
+            <p class="p">Льняной двубортный блейзер и юбка Fashion Union Tall </p> 
+            </div>
+            
+            <div class="card">
+            <img src="./img/2w.jpg" width="256" height="318" alt="Screenshot">
+            <div class="card__price">
+                <span class="card__title">6 060 ₽</span> 
+                <img class="card__pic" src="./img/heart-ico-second.png" alt="pic">  
+            </div>
+            <p class="p">Джинсовая рубашка в стиле вестерн с необработанным краем Levi's</p> 
+            </div>
+            
+            <div class="card">
+            <img src="./img/3w.jpg" width="256" height="318" alt="Screenshot">
+            <div class="card__price">
+                <span class="card__title">4 690 ₽</span> 
+                <img class="card__pic" src="./img/heart-ico-second.png" alt="pic">  
+            </div>
+            <p class="p">Розовые кроссовки Nike Running Renew Arena</p> 
+            </div>
+            
+            <div class="card">
+            <img src="./img/4w.jpg" width="256" height="318" alt="Screenshot">
+            <div class="card__price">
+                <span>4 690 ₽</span> 
+                <img class="card__pic" src="./img/heart-ico-second.png" alt="pic">  
+            </div>
+            <p class="p">Брюки спортивные CUFFED PANTS</p> 
+            </div>
+            
+            <div class="card">
+            <img src="./img/5w.jpg" width="256" height="318" alt="Screenshot">
+            <div class="card__price">
+                <span class="card__title">1 890 ₽</span> 
+                <img class="card__pic" src="./img/heart-ico-second.png" alt="pic">  
+            </div>
+            <p class="p">Льняной двубортный блейзер и юбка Fashion Union Tall </p> 
+            </div>
+            
+            <div class="card">
+            <img src="./img/6w.jpg" width="256" height="318" alt="Screenshot">
+            <div class="card__price">
+                <span class="card__title">1 590 ₽</span> 
+                <img class="card__pic" src="./img/heart-ico-second.png" alt="pic">  
+            </div>
+            <p class="p">Желтый топ на бретелях Miss Selfridge</p> 
+            </div>
+            
+            <div class="card">
+            <img src="./img/7w.jpg" width="256" height="318" alt="Screenshot">
+            <div class="card__price">
+                <span class="card__title">4 690 ₽</span> 
+                <img class="card__pic" src="./img/heart-ico-second.png" alt="pic">  
+            </div>
+            <p class="p">Топ с эластичным поясом и вышивкой Y.A.S</p> 
+            </div>
+            
+            <div class="card">
+            <img src="./img/8w.jpg" width="256" height="318" alt="Screenshot">
+            <div class="card__price">
+                <span class="card__title">4 590 ₽</span> 
+                <img class="card__pic" src="./img/heart-ico-second.png" alt="pic">  
+            </div>
+            <p class="p">Оранжевое платье-бандо миди с высоким разрезом Vesper</p> 
+            </div>
+            
+            <div class="card">
+            <img src="./img/9w.jpg" width="256" height="318" alt="Screenshot">
+            <div class="card__price">
+                <span class="card__title">5 890 ₽</span> 
+                <img class="card__pic" src="./img/heart-ico-second.png" alt="pic">  
+            </div>
+            <p class="p">Ромпер с поясом & Other Stories</p> 
+            </div>
+            </div>
+        </div>
+    
+        <div class="second">
+            <div class="grid">
+                <div class="card">
+                    <img src="./img/1w.jpg" width="256" height="318" alt="Screenshot">
+                    <div class="card__price">
+                    <span class="card__title">9 450 ₽</span> 
+                    <img class="card__pic" src="./img/heart-ico-second.png" alt="pic">   
+                    </div>
+                    <p class="p">Льняной двубортный блейзер и юбка Fashion Union Tall </p> 
+                </div>
+                
+                <div class="card">
+                    <img src="./img/2w.jpg" width="256" height="318" alt="Screenshot">
+                    <div class="card__price">
+                    <span class="card__title">6 060 ₽</span> 
+                    <img class="card__pic" src="./img/heart-ico-second.png" alt="pic">   
+                    </div>
+                    <p class="p">Джинсовая рубашка в стиле вестерн с необработанным краем Levi's</p> 
+                </div>
+                
+                <div class="card">
+                    <img src="./img/3w.jpg" width="256" height="318" alt="Screenshot">
+                    <div class="card__price">
+                    <span class="card__title">4 690 ₽</span> 
+                    <img class="card__pic" src="./img/heart-ico-second.png" alt="pic">  
+                    </div>
+                    <p class="p">Розовые кроссовки Nike Running Renew Arena</p> 
+                </div>
+                <div class="card">
+                    <img src="./img/4w.jpg" width="256" height="318" alt="Screenshot">
+                    <div class="card__price">
+                    <span class="card__title">4 690 ₽</span> 
+                    <img class="card__pic" src="./img/heart-ico-second.png" alt="pic">  
+                    </div>
+                    <p class="p">Брюки спортивные CUFFED PANTS</p> 
+                </div>
+                <div class="card">
+                    <img src="./img/5w.jpg" width="256" height="318" alt="Screenshot">
+                    <div class="card__price">
+                    <span class="card__title">1 890 ₽</span> 
+                    <img class="card__pic" src="./img/heart-ico-second.png" alt="pic">  
+                    </div>
+                    <p class="p">Льняной двубортный блейзер и юбка Fashion Union Tall </p> 
+                </div>
+                <div class="card">
+                    <img src="./img/6w.jpg" width="256" height="318" alt="Screenshot">
+                    <div class="card__price">
+                    <span class="card__title">1 590 ₽</span> 
+                    <img class="card__pic" src="./img/heart-ico-second.png" alt="pic">  
+                    </div>
+                    <p class="p">Желтый топ на бретелях Miss Selfridge</p> 
+                </div> 
+                <div class="card">
+                    <img src="./img/7w.jpg" width="256" height="318" alt="Screenshot">
+                    <div class="card__price">
+                    <span class="card__title">4 690 ₽</span> 
+                    <img class="card__pic" src="./img/heart-ico-second.png" alt="pic">  
+                    </div>
+                    <p class="p">Топ с эластичным поясом и вышивкой Y.A.S</p> 
+                </div>
+                <div class="card">
+                    <img src="./img/8w.jpg" width="256" height="318" alt="Screenshot">
+                    <div class="card__price">
+                    <span class="card__title">4 590 ₽</span> 
+                    <img class="card__pic" src="./img/heart-ico-second.png" alt="pic">  
+                    </div>
+                    <p class="p">Оранжевое платье-бандо миди с высоким разрезом Vesper</p> 
+                </div>  
+                <div class="card">
+                    <img src="./img/9w.jpg" width="256" height="318" alt="Screenshot">
+                    <div class="card__price">
+                    <span class="card__title">5 890 ₽</span> 
+                    <img class="card__pic" src="./img/heart-ico-second.png" alt="pic">  
+                    </div>
+                    <p class="p">Ромпер с поясом & Other Stories</p> 
+                </div>
+                </div>
+        </div>
+    </div>
+</div>       
+    <button class="main__button">Загрузить еще</button>
+</main>
+<hr>
+
+    <footer class="footer">
+        <div class="footer__header container">
+            <div class="instagramm">
+            <a href="">
+                <img src="./img/instagramm.png" alt="" class="instagramm__logo">
+                <span class="instagramm__title">Наш instagram</span>
+            </a>
+            </div>
+            <div class="payment">
+                <span class="payment__title">Принимаем к оплате:</span>
+                <div class="payment__pictures">
+                    <a href=""><img class="payment__image" src="./img/visa.png" alt="visa"></a>
+                    <a href=""><img class="payment__image" src="./img/mastercard.png" alt="mastercard"></a>
+                    <a href=""><img class="payment__image" src="./img/paypal.png" alt="paypal"></a>
+                    <a href=""><img class="payment__image" src="./img/maestro.png" alt="maestro"></a>
+                    <a href=""><img class="payment__image" src="./img/applepay.png" alt="applepay"></a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="about__us container">
+                <div class="about__us-nav">
+                   <a class="about__us-text " href=""><span>О нас</span></a>
+                   <a class="about__us-text " href=""><span>Доставка и оплата</span></a> 
+                   <a class="about__us-text " href=""><span>Помощь</span></a> 
+                </div>
+                <div class="about__us-app">
+                    <img src="./img/googleplay.png" alt="googleplay">
+                    <img src="./img/appstore.png" alt="appstore">
+                </div>
+                <div class="about__us-contact">
+                    <span>Служба поддержки:<b>8 (800) 32-32-30</b></span>
+            </div>    
+        </div>
+        <div class="footer__watermark ">
+            <div class="footer__watermark-items">
+                <div class="footer__watermark-left">
+                    <span class="data">
+                    © 2019 IDILlIkA
+                    </span>
+                </div>
+                <div class="rules">
+                    <a class="rules__item" href=""><span>Конфиденциальность и cookie-файлы</span></a>
+                    <div class="line"></div>
+                    <a class="rules__item" href=""><span>Правила и условия</span></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+    <script src="./js/libs/jquery.js"></script>
+    <script src="./js/catalog.js"></script>
+</body>
+</html>
+
+
+
+
+
+
